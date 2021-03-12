@@ -44,7 +44,7 @@ const TeamDetail = () => {
                         <h4> <FontAwesomeIcon icon={faLocationArrow} /> Founded : {teamDetails.intFormedYear}</h4>
                         <h4><FontAwesomeIcon icon={faFlag} /> Country : {teamDetails.strCountry}</h4>
                         <h4><FontAwesomeIcon icon={faFutbol} /> Sport  Type : {teamDetails.strSport}</h4>
-                        <h4><FontAwesomeIcon icon={faTransgender} />gender : {teamDetails.strGender}</h4>
+                        <h4><FontAwesomeIcon icon={faTransgender} />Gender : {teamDetails.strGender}</h4>
                     </div>
                     <div className="col-md-6 col-sm-12">
                         <img

@@ -18,11 +18,11 @@ const Team = (props) => {
 
     return (
         
-        <div >
-            <Card  style={{ width: '18rem',float:'left', margin:'2rem',Padding:'2rem',height:'40rem'}}>
+        <div  className="container"  >
+            <Card className ="shadow p-3 mb-5 bg-body rounded" style={{ backgroundColor:'AliceBlue',width: '18rem',float:'left', margin:'2rem',Padding:'2rem',height:'40rem'}}>
                 <Card.Img variant="top" src={strTeamBadge} />
                 <Card.Body style={{overflow:'hidden'}}>
-                    <Card.Title>name: {strSport}</Card.Title>
+                    <Card.Title>Name: {strSport}</Card.Title>
                     <Button onClick ={()=>showTeamDetails(idTeam)}  variant="primary"><FontAwesomeIcon icon={faArrowRight} /> explore</Button>
                     <Card.Text style={{textAlign:'justify'}} >
                         {strDescriptionEN}
